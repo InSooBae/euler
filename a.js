@@ -1,3 +1,4 @@
+
 function cccc(a) {
     count=0
     tmp=[]
@@ -29,7 +30,7 @@ for(i=count-1;i>=0;i--) {
 }
 return tp
 }
-
+// 개미수열
 function a(b) {
     c=1
     d=[]
@@ -43,4 +44,14 @@ function a(b) {
         console.log(c)
         }
     }
+}
+//1000까지 3의 배수와 5의 배수의 합
+function b(a) {
+    let res=0
+    for(let i =0; i<a;i++) {
+        if(i%3==0||i%5==0)
+            res+=i
+        
+    }
+    return res
 }
